@@ -7,8 +7,85 @@
             content="width=device-width, initial-scale=1.0, viewport-fit=cover"
         />
 
-        <!-- PWA -->
+        <!-- ── Primary SEO ──────────────────────────────────────────────────── -->
+        <title>Quote Cards — Create Beautiful Shareable Quote Images</title>
+        <meta
+            name="description"
+            content="Create stunning quote cards with custom fonts, gradients, and full Arabic/RTL support. Export as high-resolution PNG. Free, no sign-up, works offline."
+        />
+        <meta
+            name="keywords"
+            content="quote card maker, quote image generator, Arabic quote cards, RTL quote maker, shareable quotes, quote designer, بطاقات اقتباس, مولد اقتباسات"
+        />
+        <meta name="author" content="Eyad — eyadmkv.vercel.app" />
+        <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#7c3aed" />
+        <link rel="canonical" href="https://quotesmkv.vercel.app/" />
+
+        <!-- ── Alternate languages ─────────────────────────────────────────── -->
+        <link
+            rel="alternate"
+            hreflang="en"
+            href="https://quotesmkv.vercel.app/"
+        />
+        <link
+            rel="alternate"
+            hreflang="ar"
+            href="https://quotesmkv.vercel.app/"
+        />
+        <link
+            rel="alternate"
+            hreflang="x-default"
+            href="https://quotesmkv.vercel.app/"
+        />
+
+        <!-- ── Open Graph ───────────────────────────────────────────────────── -->
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Quote Cards" />
+        <meta
+            property="og:title"
+            content="Quote Cards — Create Beautiful Shareable Quote Images"
+        />
+        <meta
+            property="og:description"
+            content="Create stunning quote cards with custom fonts, gradients, and full Arabic/RTL support. Export as high-resolution PNG. Free, no sign-up, works offline."
+        />
+        <meta property="og:url" content="https://quotesmkv.vercel.app/" />
+        <meta
+            property="og:image"
+            content="https://quotesmkv.vercel.app/og-image.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+            property="og:image:alt"
+            content="Quote Cards app — a purple lightning bolt logo on a dark background"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale:alternate" content="ar_EG" />
+
+        <!-- ── Twitter / X Card ─────────────────────────────────────────────── -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@eyadmkv" />
+        <meta name="twitter:creator" content="@eyadmkv" />
+        <meta
+            name="twitter:title"
+            content="Quote Cards — Create Beautiful Shareable Quote Images"
+        />
+        <meta
+            name="twitter:description"
+            content="Create stunning quote cards with custom fonts, gradients, and full Arabic/RTL support. Export as high-resolution PNG. Free, no sign-up, works offline."
+        />
+        <meta
+            name="twitter:image"
+            content="https://quotesmkv.vercel.app/og-image.png"
+        />
+        <meta
+            name="twitter:image:alt"
+            content="Quote Cards app — a purple lightning bolt logo on a dark background"
+        />
+
+        <!-- ── PWA ──────────────────────────────────────────────────────────── -->
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
@@ -21,26 +98,61 @@
         <link
             rel="icon"
             type="image/png"
+            sizes="512x512"
+            href="/icons/icon-512.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
             sizes="192x192"
             href="/icons/icon-192.png"
         />
 
-        <!-- SEO -->
-        <title>Quote Cards</title>
-        <meta
-            name="description"
-            content="Create beautiful shareable quote cards with custom fonts, gradients, and Arabic/RTL support."
-        />
+        <!-- ── Structured data (JSON-LD) ────────────────────────────────────── -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                "name": "Quote Cards",
+                "url": "https://quotesmkv.vercel.app/",
+                "description": "Create stunning quote cards with custom fonts, gradients, and full Arabic/RTL support. Export as high-resolution PNG.",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "Any",
+                "browserRequirements": "Requires JavaScript",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Eyad",
+                    "url": "https://eyadmkv.vercel.app"
+                },
+                "image": "https://quotesmkv.vercel.app/og-image.png",
+                "screenshot": "https://quotesmkv.vercel.app/og-image.png",
+                "featureList": [
+                    "14 fonts including 6 Arabic fonts",
+                    "RTL and Arabic text support",
+                    "Gradient and solid backgrounds",
+                    "Multiple aspect ratios",
+                    "2x resolution PNG export",
+                    "Works offline as a PWA",
+                    "Egyptian Arabic UI locale"
+                ],
+                "inLanguage": ["en", "ar-EG"]
+            }
+        </script>
 
-        <!-- Fonts -->
+        <!-- ── Google Fonts ──────────────────────────────────────────────────── -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <!-- Latin fonts -->
+        <!-- Latin -->
         <link
             href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@400;600&family=Pacifico&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;600&display=swap"
             rel="stylesheet"
         />
-        <!-- Arabic fonts -->
+        <!-- Arabic -->
         <link
             href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&family=Scheherazade+New:wght@400;700&family=Noto+Naskh+Arabic:wght@400;600&family=Reem+Kufi:wght@400;600&display=swap"
             rel="stylesheet"
